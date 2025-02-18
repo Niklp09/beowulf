@@ -20,7 +20,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v7
       with:
-        author: github-actions[bot]@users.noreply.github.com
+        #author: github-actions[bot]@users.noreply.github.com
         commit-message: "[CI] Update cheat client hash list"
         title: "[CI] Update cheat client hash list"
         branch: cheat-client-hashes
